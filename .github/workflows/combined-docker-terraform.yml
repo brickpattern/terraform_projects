@@ -22,10 +22,10 @@ jobs:
         shell: bash
         working-directory: container-pipeline-1
     steps:
-      - name: Output runner name
-        id: runner_name
-        run: echo "RUNNER_NAME=${{ runner.name }}" >> $GITHUB_OUTPUT
-        
+    #   - name: Output runner name
+    #     id: runner_name
+    #     run: echo "RUNNER_NAME=${{ runner.name }}" >> $GITHUB_OUTPUT
+
       - name: Checkout
         uses: actions/checkout@v4
 
