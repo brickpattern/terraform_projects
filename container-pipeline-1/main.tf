@@ -5,6 +5,7 @@ terraform {
       version = "3.6.2"
     }
   }
+  required_version = ">= 1.12.0"
 }
 
 # provider "docker" {
