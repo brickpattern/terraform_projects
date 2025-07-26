@@ -17,10 +17,10 @@ jobs:
     name: 'Terraform'
     runs-on: ubuntu-latest
     environment: production
-    defaults:
-      run:
-        shell: bash
-        working-directory: container-pipeline-1
+    # defaults:
+    #   run:
+    #     shell: bash
+    #     working-directory: container-pipeline-1
     steps:
     #   - name: Output runner name
     #     id: runner_name
